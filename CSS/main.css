@@ -1,0 +1,974 @@
+
+/*Reset the Broweser settings */
+html, body, span, p, h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+
+}
+ 
+/*Default settings*/
+
+/*the main navigation console on the top*/
+  #topNavigation {
+     background-color: white;
+     width:100%;
+     height: 7rem;
+
+  }
+/*by default the pop up menu is not visible*/
+  #popUpMenu {
+     display: none;
+  }
+
+/*box for main text in background 1*/
+#background1Text {
+  width:40%;
+  margin-left:10%; 
+  margin-right:50%;
+
+  letter-spacing: 5px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color:#616161;
+}
+
+/*default setting for background2*/
+#background2 {
+  width: 100%;
+  height: 60rem;
+  padding-top: 5rem;
+  overflow: scroll;
+ 
+  background-color:#dbd92e;
+}
+
+/*default setting for background3*/
+#background3 {
+  width: 100%;
+  height: 70rem;
+  padding-top: 5rem;
+  background-size: cover;
+  background-image: url("../Images/Main2.jpg"); 
+  background-attachment: fixed;
+  
+}
+
+/*the about text settings*/
+#aboutText {
+
+   width: 80%;
+   margin-right: 10%;
+   margin-left: 10%;
+   margin-top: 3rem;
+
+
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 1.5rem;
+   letter-spacing: 0.1rem;
+   color:#616161;
+   line-height: 150%;
+   
+}
+
+/*define size of social media styles*/
+.socialMediaStylePictures {
+  width:2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem; 
+  margin-left: 2rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem; 
+
+}
+
+/*main setting for the text in two boxes on background3*/
+.textForPersonalGroupBox {
+  font-family: sans-serif;
+  color:#303030;
+}
+
+/*upper text in boxes on background3*/
+/*inheritr from textForPersonalGroupBox*/
+.upperTextForPersonalGroupBox {
+position:relative;
+top:5rem;
+text-align: center;
+font-size:2.5rem;
+font-weight:600;
+letter-spacing: 0rem;
+
+}
+
+/*mid text in boxes on background3*/
+/*inheritr from textForPersonalGroupBox*/
+.midTextForPersonalGroupBox {
+  position:relative;
+  top:9rem;
+  text-align: center;
+  font-size:1.5rem;
+  line-height: 2.5rem;
+  font-weight:200;
+  letter-spacing: 0rem;
+
+}
+
+/*lower text in boxes on background3*/
+/*inheritr from textForPersonalGroupBox*/
+.lowerTextForPersonalGroupBox {
+position:relative;
+top:13rem;
+text-align: center;
+font-size:2.5rem;
+font-weight:600;
+letter-spacing: 0rem;
+
+}
+
+/*default for background4*/
+#background4 {
+  width: 100%;
+  height: 40rem;
+  background-color: #fdd0c1;
+  padding-top: 5rem;
+}
+
+/*default for text box on background4*/
+#textYourOptionBackground4 {
+   width: 80%;
+
+   margin-right: auto;
+   margin-left: auto;
+
+   font-family: sans-serif;
+   color:#616161;
+
+  
+}
+
+/*default for headline background4*/
+/*inherit from textYourOptionBackground4*/
+#headLine {
+  
+  font-size:2.5rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+/*default for main text on background 4*/
+/*inherit from textYourOptionBackground4*/
+#footLine {
+  
+  font-size:1.5rempx;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  line-height: 1.5rem;
+  margin-top: 5rem;
+}
+
+/*default for line box on background4*/
+#lineBoxBackground4 {
+  
+   width: 3rem;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5rem;
+}
+
+/*for any line in id lineBoxBackground4*/
+#lineBoxBackground4 line {
+  stroke:#616161;
+  stroke-width:2;
+}
+
+/*box-button for drop off boxes*/
+#box0Background5 {
+  width: 20rem;
+  height: 20rem;
+  background-color:#ffff33;
+  float: right;
+}
+
+/*drop-off box1*/
+#box1Background5 {
+  width: 20rem;
+  height: 20rem;
+  background-color:white;
+  float: right;
+}
+
+/*drop-off box2*/
+#box2Background5 {
+  width: 20rem;
+  height: 20rem;
+  background-color:#fdd0c1;
+  float: right;
+}
+
+/*drop-off box3*/
+#box3Background5 {
+  width: 20rem;
+  height: 20rem;
+  background-color:white;
+  float: right;
+
+}
+
+/*drop-off box4*/
+#box4Background5 {
+  width: 20rem;
+  height: 20rem;
+  background-color:#66b6d0;
+  float: right;
+}
+
+/*drop-off box5*/
+#box5Background5 {
+  width: 20rem;
+  height: 20rem;
+  background-color:white;
+  float: right;
+}
+
+/*drop-off box6*/
+#box6Background5 {
+  width: 20rem;
+  height: 20rem;
+  background-color:#dbd92e;
+  float: right;
+  clear:right;
+}
+
+/*text settings for the text in all drop off boxes*/
+.boxesTextBackground5 {
+  
+  margin-top: 7rem;
+  font-family: sans-serif;
+  text-align: center;
+  color:#303030;
+  letter-spacing: 0px;
+  font-weight:600;
+  font-size:2rem;
+}
+
+/*hiding pictures inside boxes1-6 on background5*/
+#picture1,#picture2,#picture3,#picture4,#picture5,#picture6 {
+ width:20rem;
+ height: 20rem;
+ display: none;
+}
+
+/*just a picture in the background*/
+#background6 {
+  width:100%;
+  height: 50rem;
+
+  background-image: url("../Images/Main4.jpg");
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile view width <=768px*/
+@media screen and (max-width: 767px) {
+
+/*hide the vidio to place a picture */
+ #userVideo {
+  display: none; 
+ } 
+
+/*picture for non active mobile menu*/
+  #menuNotActive {
+    position: absolute;
+    width:5rem;
+    height:5rem;
+  }
+
+/*picture for active mobile menu*/
+   #menuActive {
+     position: absolute;
+     width:5rem;
+     height:5rem;
+
+  }
+
+/*mobile menu box*/
+  #menuBox {
+    float:right;
+    width:5rem;
+    height:5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+
+/*desktop menu box*/
+#DeskTopMenuBox {
+  display: none;
+}
+
+
+/*pop up menue box*/
+ #popUpMenu {
+    position: absolute;
+    width:50%;
+    margin-right: 25%;
+    margin-left: 25%;
+
+ }
+
+ /*pop up menu content. Overriding bootstrap to place text in the centre*/
+ #popUpMenuContent {
+    text-align: center;
+ }
+
+ /*menu elments. Overriding bootstrap to make corners sharp and diffrenet background color*/
+  #popUpMenuContent li a {
+    border-radius: 0;
+    background-color: rgba(189,181,181,0.4);
+
+  }
+/*menu elments:Hover. Overriding bootstrap make background color less transparant*/
+  #popUpMenuContent li a:hover {
+    background-color: rgba(189,181,181,0.8);
+  }
+
+/*with a picture for a mobile view*/
+  #background1 {
+    width: 100%;
+    height: 40rem;
+    padding-top: 5rem;
+    background-size: cover;
+
+    background-image: url("../Images/Main1.jpg");
+  }
+
+/*photo slide box where we place an image*/
+ #slideShowBox {
+   width: 70vw;
+   height:50vw;
+   margin-right: auto;
+   margin-left: auto;
+  
+}
+
+/*framing photo to another inline box to support a visual effect*/
+#visualPhotoBox {
+   display: inline-block;
+   overflow: hidden;
+}
+
+/*the image itself wich will be replaces by other image on click*/
+#slideImage {
+  
+   position: relative;
+   width: 50vw;
+   height:50vw;
+   border-radius: 50%;
+}
+
+/*back arrow*/
+#back {
+  width: 10vw;
+  height:10vw;
+  margin-top: 20vw;
+  float:left;
+}
+
+/*forward arrow*/
+#forward {
+  width: 10vw;
+  height:10vw;
+  margin-top: 20vw;
+  float: right;
+}
+
+/*box for the two boxes on on the background3*/
+#boxForPersonalGroupTraining {
+  width: 30rem;
+  height: 30rem;
+  
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*box 1 on the background3*/
+#boxforPersonalTraining {
+  display: inline-block;
+  
+  width: 30rem;
+  height: 30rem;
+  background-color: white;
+}
+
+/*box 2 on the background3*/
+#boxForGroupTraining {
+   display: inline-block;
+   
+   width: 30rem;
+   height: 30rem;
+   background-color: #dbd92e;
+}
+
+/*hide the button Contact on background3*/
+#buttonUnit {
+  display: none;
+}
+
+
+/*make background5 only for one box to expand later when cleicked on the box*/
+#background5 {
+  width:100%;
+  height: 30rem;
+  padding-top: 5rem;
+
+  background-image: url("../Images/Main3.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+/*container for all boxes on background 5 is only enough width for one box*/
+#boxBackground5 {   
+  width: 20rem;
+  height: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+/*hide all boxes on background5 except for the firs*/
+#box1Background5, #box2Background5, #box3Background5, #box4Background5, #box5Background5, #box6Background5 {
+  display: none;
+}
+
+/*hide background7 with email form*/
+#background7 {
+  display: none;
+}
+
+/*hide background8 with a picture*/
+#background8 {
+ display: none;
+}
+
+/*hide background9 with a picture*/
+#background9 {
+ display: none;
+}
+
+/*bottom fixed panel*/
+#contactMeMobilePanel {
+  width: 100%;
+  height: 10rem;
+  
+  position: fixed;
+  overflow: scroll;
+  bottom: 0px;
+  z-index: 100;
+  background-color: rgba(255,255,255,0.5);
+ 
+}
+
+/*send email picture*/
+#sendEmail {
+  width: 5rem;
+  height: 6rem;
+  float:left;
+
+  margin-top: 2rem;
+  margin-left: 2rem;
+
+}
+
+/*show location picture*/
+#showLocation {
+  width: 5rem;
+  height: 6rem;
+  float:right;
+
+  margin-top: 2rem;
+  margin-right: 2rem;
+
+}
+
+/*hide panel arrow picure */
+#showBottomPanel {
+  width: 5rem;
+  height: 3rem;
+ 
+}
+
+/*show panel arrow picure */
+#hideBottomPanel {
+  width: 5rem;
+  height: 3rem;
+  display: none;
+}
+
+/* box for hide/show arrows to align them in the centre*/
+ #hideShowBox {
+   width: 5rem;
+   height: 3rem;
+
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+/*contact information text styling*/
+ #contactInformation {
+   font-family: sans-serif;
+   text-align: center;
+   font-size: 2rem;
+   text-decoration: none;
+ }
+
+/*overriding blue color for links*/
+#contactInformation a {
+  color:rgba(51,51,51,1);
+}
+
+/*turning text decoration on hover off*/
+#contactInformation a:hover {
+  text-decoration: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desctop view - width >=768px*/
+@media screen and (min-width: 768px) {
+
+/*make video oiut of flow and behind everything*/
+/*we are not taking 100% of the screen's width
+unless it's more than 1280px. Otherwise we will have white space under the video
+*/
+#userVideo {
+  position: fixed;
+  z-index: -1;
+ } 
+
+/*making the top menu fixed*/
+ #topNavigation {
+     position: fixed;
+     z-index: 100;
+     
+  }
+
+/*positioning menu content with its box*/
+#DeskTopMenuContent {
+   height:4rem;
+   margin-bottom: 1.5rem;
+   margin-top: 1.5rem;
+   
+}
+
+/*styling menu by overrriding bootstrap*/
+#DeskTopMenuContent li a{
+   font-family: sans-serif;
+   border-radius: 0px;
+}
+
+#background1 {
+  width: 100%;
+  height: 70rem;
+  padding-top: 15rem;
+}
+
+  
+/*hide square mobileMenuBox*/
+  #menuBox {
+     display: none;
+  }
+
+/*float social media pictures to the right*/
+  #mobileSocialMedia {
+    float:right;
+  }
+
+ /*photo slide box where we place an image*/
+ #slideShowBox {
+   width: 40rem;
+   height:30rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+/*framing photo to another inline box to support a visual effect*/
+#visualPhotoBox {
+   display: inline-block;
+   overflow: hidden;
+}
+
+/*the image itself wich will be replaces by other image on click*/
+#slideImage {
+   position: relative;
+   width: 30rem;
+   height:30rem;
+   border-radius: 50%;
+}
+
+/*back arrow*/
+#back {
+  width: 5rem;
+  height:5rem;
+  margin-top: 12.5rem;
+  float:left;
+}
+
+/*forward arrow*/
+#forward {
+  width: 5rem;
+  height:5rem;
+  margin-top: 12.5rem;
+  float: right;
+}
+
+/*box for the two boxes on on the background3*/
+#boxForPersonalGroupTraining {
+  width: 70rem;
+  height: 35rem;
+  
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+/*box 1 on the background3*/
+#boxforPersonalTraining {
+  display: inline-block;
+  width: 35rem;
+  height: 35rem;
+  background-color: white;
+}
+
+/*box 2 on the background3*/
+#boxForGroupTraining {
+   display: inline-block;
+   /*we need absolute for some uknown reason to get rid of little padding within the main box*/
+   position: absolute;
+   width: 35rem;
+   height: 35rem;
+   background-color: #dbd92e;
+}
+
+/*button-unit Contact on background3*/
+#buttonUnit {
+  text-decoration: none;
+}
+
+/*content of the button Contact on background3*/
+#buttonContact {
+  width: 25rem;
+  height: 5rem;
+  margin-top: 10rem;
+  margin-right: auto;
+  margin-left:auto; 
+  
+  border: 0.2rem solid white;
+  background-color: none;
+  
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1.3rem;
+
+  
+  color:white;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+}
+
+#buttonContact:hover{
+  background-color: #fcb9a2;
+  transition-duration: 1s;
+}
+
+/*make background 5 enough for the grid with boxes*/
+#background5 {
+  width:100%;
+  height: 70rem;
+  padding-top: 5rem;
+
+  background-image: url("../Images/Main3.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+/*container for all boxes on background 5 is only enough width for three box*/
+#boxBackground5 {   
+  width: 60rem;
+  height: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+/*hide the first box on background 5*/
+#box0Background5 {
+  display: none;
+}
+
+/*background7 settings*/
+#background7 {
+  width:100%;
+  height: 70rem;
+  background-color:#f2f35b;
+  padding-top: 0.5rem;
+}
+
+#textContactBackground7 {
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: sans-serif;
+   color:#616161;
+}
+
+/*inherits font-famaly from textContactBackground7 */
+#topLineBackground7 {
+   text-align: center;
+   font-size:2rem; 
+   letter-spacing: 0.2rem;
+
+}
+
+/*inherits font-famaly from textContactBackground7 */
+#midLineBackground7 {
+   margin-top: 5rem;
+   text-align: center;
+   font-size:2rem; 
+   letter-spacing: 0.2rem;
+}
+
+/*inherits font-famaly from textContactBackground7 */
+#bottomLineBackground7 {
+   margin-top: 5rem; 
+   text-align: center;
+   font-size:1.5rem; 
+   letter-spacing: 0.2rem;
+   color:rgba(51,51,51,1);
+}
+
+/*overrriding color property and text decoration for links*/ 
+#bottomLineBackground7 a, a:hover {
+  color:#616161;
+  text-decoration: none;
+}
+
+#lineBoxBackground7 {
+   margin-top: 5rem;
+   width: 1rem;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/*for line elements in id lineBoxBackground7 */
+#lineBoxBackground7 line {
+  stroke:#616161;
+  stroke-width:2;
+}
+
+/*inherits font-famaly from textContactBackground7 */
+.inputStyleBackground7  {
+  width:100%;
+
+  border: none;
+  text-align: left;
+  
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color:#616161;
+  background-color: white;
+}
+
+#background7 form {
+ width:80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#background7 input {
+  height: 3rem;
+  line-height: 1.5rem;
+}
+
+#background7 button {
+  width:5rem;
+  float: right;
+  text-align: center;
+  outline: none;
+}
+
+#background7 textarea {
+  resize:none;
+}
+
+#background7 input, textarea:focus {
+ outline: none;
+}
+
+/*show background8 in a descktop mode*/
+#background8 {
+  width:100%;
+  height: 60rem;
+
+  background-image: url("../Images/Main5.jpg");
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+
+
+/*show background8 in a descktop mode*/
+#background9 {
+  width:100%;
+  height: 25rem;
+  background-color:#fdd0c1;
+  padding-top: 3rem;
+}
+
+/*box for arrow up background9*/
+#lineBoxBottom {
+   width: 5rem;
+   height: 3rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#lineBoxBottom line {
+   stroke:#303030;
+   stroke-width:3;
+}
+
+
+.footerTextBackground9 {
+  font-family: sans-serif;
+}
+
+/*inherits from footerTextBackground9 */
+#lineBackToTopBackground9 {
+  text-align: center;
+  margin-top: 2rem;
+  letter-spacing: 0rem;
+  font-weight:600;
+  font-size:2rem;
+  color:#303030;
+
+
+}
+
+/*inherits from footerTextBackground9 */
+#lineCopyRightBackground9 { 
+  text-align: center;
+  margin-top: 5rem;
+  letter-spacing: 0rem;
+  font-weight:400;
+  font-size:1.3rem;
+  color:#616161;
+}
+
+/*hide panel to contact with a map for a desctop view mode*/
+#contactMeMobilePanel {
+ display: none;
+}
+}
+
+
+/*for extremelly wide displays >1280px */
+@media screen and (min-width: 1280px) {
+/*make video oiut of flow and behind everything*/
+/*when the screen is wider 1280px we are taking 100% of the width otherwise
+we will have white space on right of the video*/
+#userVideo {
+  position: fixed;
+  z-index: -1;
+  width:100%;
+ } 
+}
+
+/*for extremelly small displays*/
+@media screen and (max-width: 285px) {
+    
+/*hide social media pictures box*/    
+    #mobileSocialMedia {
+    display: none;
+  }
+
+}
+

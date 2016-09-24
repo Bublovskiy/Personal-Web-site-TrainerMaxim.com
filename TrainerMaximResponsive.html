@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+
+	 <title>Maxim.Personal Trainer</title>
+ <link rel="stylesheet" href="CSS/main.css"/>
+  <!-- loading bootstrap CSS files -->
+ <link rel="stylesheet" href="CSS/bootstrap-theme.css"/>
+   <link rel="stylesheet" href="CSS/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="CSS/bootstrap.css"/> 
+      <link rel="stylesheet" href="CSS/bootstrap.min.css"/> 
+
+</head>
+
+<body>
+
+<!-- placing video at the very beggining -->
+<video id="userVideo" autoplay loop muted>
+  <source src="Images/TrainerMaxim.mp4" type="video/mp4">
+</video>
+
+
+<!-- navigation box -->
+<nav id="topNavigation">   
+  <div id=menuBox>
+     <!-- active menu picture "CROSS"-->
+     <img id="menuNotActive" src="Images/mobileMenuClose.png">
+     <!-- Not active menu picture "NORMAL" -->
+     <img id="menuActive" src="Images/mobileMenu.png">
+  </div>
+
+<!-- mobile social media box -->  
+  <div id="mobileSocialMedia">
+     <a href="https://www.instagram.com/trainer_maxim/">
+     <img class="socialMediaStylePictures" src="Images/instagram.jpg"></a>
+
+     <a href="https://www.facebook.com/trainermaxim">
+     <img class="socialMediaStylePictures" src="Images/fb.jpg"></a>
+     
+     <a href="https://www.youtube.com/channel/UC0_FFAtJpKti2KdEKMqhE4w">
+     <img class="socialMediaStylePictures" src="Images/youtube.jpg"></a>
+     
+     <a href="https://plus.google.com/117482157053297384767">
+     <img class="socialMediaStylePictures" src="Images/gplus.jpg"></a>
+  
+  </div>
+
+  <!-- descktop menu -->
+<div id="DeskTopMenuBox" >
+	 <ul  class="nav nav-pills nav-justified" id="DeskTopMenuContent">
+	 	<li><a href="#background1">HOME</a></li>
+	 	<li><a href="#background2">ABOUT</a></li>
+	 	<li><a href="#background3">RATES</a></li>
+	 	<li><a href="#background4">WORKOUTS</a></li>
+	 	<li><a href="#background7">CONTACTS</a></li>
+	 </ul>
+</div>
+
+
+<!-- end of top navigation panel -->
+</nav>
+
+
+<!-- pop up menue -->
+<div id="popUpMenu" >
+	 <ul class="nav nav-pills nav-stacked" id="popUpMenuContent">
+	 	<li><a href="#background1">HOME</a></li>
+	 	<li><a href="#background2">ABOUT</a></li>
+	 	<li><a href="#background3">RATES</a></li>
+	 	<li><a href="#background4">WORKOUTS</a></li>
+	 </ul>
+</div>
+
+<!-- background 1 -->
+<div id="background1">
+
+
+<!-- box for text on the background 1 -->
+  <div id="background1Text">
+    <p >MAXIM<br/>PERSONAL<br/>FITNESS<br/>TRAINER<br/></p> 
+  </div>
+
+<!-- end of background1 -->
+</div>
+
+<!-- background 2 -->
+<div id="background2">
+	
+
+<!-- placing slide-show with photos -->
+<!-- URLs of the pictures showing on right/left click are constructed automatically in JS code -->
+<!-- 
+To add/change pictures in the carousel:
+	1. Place pictures in the image folder
+	2. Rename them to Maxim1.jpg, Maxim2.jpg ..... MaximN.jpg (N - number of the pictures)
+	3. Find and open main.js
+	4. Find two functions: clickForward() and clickBack()
+	5. Replace number "5" in both functions(default amount of pictures) by a number equals to mumber of pictures you placed in the image directory 
+ -->
+
+ <div id="slideShowBox">
+   <img id="back" src="Images/backArrow.jpg"> 
+     <div id="visualPhotoBox">
+       <img id="slideImage" src="Images/Maxim1.jpg"> 
+     </div>  
+   <img id="forward" src="Images/forwardArrow.jpg"> 
+ </div>
+
+
+<!-- the about thext -->
+	<article id="aboutText">
+               <p>My name is Maxim, and I am from Russia. I started gymnastics when I was nine years old. I graduated Russian State Institute of Physical Culture and Sport where I studied Sport Science, Kinesiology and Biomechanics. I am certified and fully insured Personal Trainer.With my fifteen years of experience as an athlete, and nine years of personal coaching experience, I can help you achieve your goals.
+               Please check out my Facebook page or Instagram account to learn more about me.<p>
+     </article> 
+
+<!-- end of background2 -->
+</div>
+
+<div id="background3">
+
+    <!-- A container for two big boxes to keep them positioned in the centre -->
+          <div id="boxForPersonalGroupTraining">
+            
+
+
+           <div id="boxforPersonalTraining">
+                <!-- upper, mid, lower inherit from textForPersonalGroupBox -->
+               <article class="textForPersonalGroupBox">
+	                  <p class="upperTextForPersonalGroupBox">PERSONAL TRAINING</p>
+	                  <p class="midTextForPersonalGroupBox">We train one on one at my gym in the heart of Downtown Vancouver.</p>
+	                  <p class="lowerTextForPersonalGroupBox">$60/hr</p>
+               </article> 
+            </div>
+
+
+            <div id="boxForGroupTraining">
+               <!--  upper, mid, lower inherit from textForPersonalGroupBox -->
+               <article class="textForPersonalGroupBox">
+	                <p class="upperTextForPersonalGroupBox">GROUP TRAINING</p>
+	                <p class="midTextForPersonalGroupBox">Bring a friend or two. It will be interesting and budget friendly.</p>
+	                <p class="lowerTextForPersonalGroupBox">$40/hr</p>
+               </article> 
+            </div>
+            </div>
+
+
+             <a id="buttonUnit" href="mailto:trainermaxim@gmail.com?subject=Personal%20trainig">
+               <div id="buttonContact">
+                 <p>CONTACT</p>
+               </div>
+             </a>
+
+<!-- end of background3 -->
+</div>
+
+<div id="background4">
+            
+              <article id="textYourOptionBackground4">
+                <p id="headLine"> Choose your option </p>
+
+                <!-- Drawing a line using a box to align it in the centre -->
+                <div id="lineBoxBackground4">
+                   <svg >
+                      <line x1="5" y1="0" x2="5" y2="60" />
+                   </svg> 
+                </div>
+
+                <p id="footLine">My arsenal of interesting body weight gymnastic exercises is quite extensive. We will find a perfect fit for you. Our workouts will utilize your full body potential, develop strength, coordination and flexibility. We will make good use of your body weight and inspiration. </p> 
+             </article>
+             
+<!-- end of background4 -->
+</div>
+
+<div id="background5">
+       
+<!-- box for all 6 drop off boxes -->
+       <div id="boxBackground5">
+         
+           <!-- starting box with activity on click to drop off the rest of the boxes -->
+              <div id="box0Background5">
+                <p class="boxesTextBackground5">SHOW ALL <span id="down" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span> <span id="up" class="glyphicon glyphicon-triangle-top" style="display:none;" aria-hidden="true"></span> </p>
+              </div> 
+
+            <!-- each box has a hidden picture to be displyed when the mouse is entering the box and hiden when the mouse is leaving -->
+              <div id="box1Background5">
+                <p id="text1" class="boxesTextBackground5">TRX<br/> WORKOUT</p>
+                <img id="picture1" src="Images/trx.jpg">
+              </div>
+
+              <div id="box2Background5">
+                 <p id="text2" class="boxesTextBackground5">GENERAL<br/> FITNESS</p>
+                  <img id="picture2" src="Images/general.jpeg">
+              </div>
+
+              <div id="box3Background5">
+                 <p id="text3" class="boxesTextBackground5">RECOVERY</p>
+                  <img id="picture3" src="Images/recovery.jpeg">
+              </div>
+
+               <div id="box4Background5">
+                 <p id="text4" class="boxesTextBackground5">CORE<br/> STRENGTH</p>
+                  <img id="picture4" src="Images/core.jpeg">
+              </div>
+
+               <div id="box5Background5">
+                 <p id="text5" class="boxesTextBackground5">GYMNASTIC<br/> STRENGTH</p>
+                  <img id="picture5" src="Images/gymnastics.jpeg">
+              </div>
+
+               <div id="box6Background5">
+                 <p id="text6" class="boxesTextBackground5">HANDSTAND<br/> CLASSES</p>
+                  <img id="picture6" src="Images/handstand.jpeg">
+              </div> 
+
+        <!-- end of the main box for little boxes -->
+        </div> 
+
+
+<!-- end of background5 -->
+</div>
+
+<!-- just a picture as a background -->
+<div id="background6">
+</div>
+
+
+<!-- visible only in a desktop view mode -->
+<div id="background7">
+              <article id="textContactBackground7">
+
+                <p id="topLineBackground7">Please note, I like discipline thus no socializing or cell phones during our sessions </p>
+
+                <p id="midLineBackground7">Contact</p>
+
+                
+                <!-- Drawing a line using a box to align it in the centre -->
+                <div id="lineBoxBackground7">
+                   <svg >
+                      <line x1="5" y1="0" x2="5" y2="60"/>
+                    </svg>
+                </div>
+
+                <form id="sendMessageForm">
+                    <br/>
+                   
+                    <input class="inputStyleBackground7 needsToBeValidated" type="text" name="Name" placeholder="Name"><br/><br/>
+                    <input class="inputStyleBackground7 needsToBeValidated" type="email" name="Email" placeholder="Email" ><br/><br/>
+                    <textarea class="inputStyleBackground7 needsToBeValidated" rows="7" name="Message" placeholder="Message"></textarea><br/><br/>
+                    <!-- type by default is "submit -->
+                    <button class="inputStyleBackground7">Send</button>
+                </form>
+
+                <p id="bottomLineBackground7">
+                <a href="https://www.google.ca/maps/place/1028+Barclay+St,+Vancouver,+BC+V6E+0B1/@49.2822366,-123.1281595,17z/data=!3m1!4b1!4m2!3m1!1s0x5486722aaffb3aa5:0xd9e86cf9a1db9152?hl=en"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>1028 Barclay St. Vancouver, BC</a><br/><a href="tel:778-239-4564">
+                Tel: 778-239-4564 (8am-9pm)</a><br/>
+                <a href="mailto:trainermaxim@gmail.com?subject=Personal%20trainig">TrainerMaxim@gmail.com</a><br/><br/>
+
+              </article>
+
+<!-- end of background 7 -->
+</div>
+
+<!-- visible only in a desktop view mode -->
+ <div id="background8">
+ </div>
+
+
+  <div id="background9">
+    
+              <!-- Drawing a line using a box to align it in the centre -->
+              <div id="lineBoxBottom">
+                 <a href="#background1">
+                 <svg>
+                    <line x1="25" y1="0" x2="0" y2="30"/>
+                    <line x1="25" y1="0" x2="50" y2="30"/>
+                  </svg>
+                 </a>
+               </div>
+
+              <article class="footerTextBackground9">
+                  <p id="lineBackToTopBackground9">BACK TO TOP</p>
+                  <p id="lineCopyRightBackground9">@2016 by TRAINER MAXIM</p> 
+              </article>
+
+<!-- end of background9 -->
+</div>
+
+<!-- panel to contact for a mobile view mode -->
+<div id="contactMeMobilePanel">
+  
+  <a href="mailto:TrainerMaxim@gmail.com?Subject=Personal%20training">
+  <img id="sendEmail" src="Images/email.png"></a>
+   
+   <a href="https://www.google.ca/maps/place/1028+Barclay+St,+Vancouver,+BC+V6E+0B1/@49.2822366,-123.1281595,17z/data=!3m1!4b1!4m2!3m1!1s0x5486722aaffb3aa5:0xd9e86cf9a1db9152?hl=en">
+   <img id="showLocation" src="Images/location.png"></a>
+    
+    <div id="hideShowBox">
+       <img id="showBottomPanel" src="Images/hidePanel.png"> 
+       <img id="hideBottomPanel" src="Images/showPanel.png"> 
+    </div>
+
+    <article id="contactInformation">
+      <p>TrainerMaxim@gmail.com<br/><span class="glyphicon glyphicon-phone" aria-hidden="true"></span><a href ="tel:778-239-4564">778.239.4564</a></p>
+    </article>
+
+</div>
+
+<!-- loading jQuery file -->
+ <script type="text/javascript" src="CSS/jquery-2.2.1.js"></script>
+<!-- loading main JS file -->
+<script type="text/javascript" src="CSS/mainRefined.js"></script>
+<!-- loading Bootstrap JS files -->
+<script type="text/javascript" src="CSS/bootstrap.js"></script>
+
+ 
+</body>
+</html>
